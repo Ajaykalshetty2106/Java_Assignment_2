@@ -7,8 +7,8 @@ public class program {
     int maths = 90;
     int science = 95;
     int english = 97;
-    float total = maths + science + english ;
-    float avg = total / 3 ;
+    double total = maths + science + english ;
+    double avg = total / 3.0 ;
     if (maths < 35 || science < 35 || english < 35)
     {
         System.out.println("failed due to low score in at least one subject");
@@ -53,6 +53,7 @@ public class program {
     
     
     
+
 
 
 
